@@ -1,1 +1,9 @@
+cmake_minimum_required(VERSION 3.4)
+project(geo_make)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(VERSION_MAJOR 0)
+set(VERSION_MINOR 1)
+set(VERSION_PATCH 0)
+set(VERSION_TWEAK 0)
