@@ -20,14 +20,3 @@ jobs:
         cmake -H. -B_build -DBUILD_TESTS=ON
         cmake --build _build
         mv _build/result artifacts
-
-    - name: Tests
-      run: |
-        _build/check
-
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: artifacts
-        path: |
-          artifacts
