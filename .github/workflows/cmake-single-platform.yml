@@ -13,5 +13,5 @@ jobs:
 
     - name: Build
       run: |
-        cmake -M. -B_build
+        cmake -H. -B_build
         cmake --build _build
