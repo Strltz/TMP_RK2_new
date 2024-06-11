@@ -8,6 +8,9 @@
 #include "graphical_object.h"
 #include "primitive.h"
 #include "point.h"
+#include "graphical_object.cpp"
+#include "primitive.cpp"
+#include "point.cpp"
 
 point::point ()
 {
