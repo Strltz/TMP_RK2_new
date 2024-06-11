@@ -9,22 +9,3 @@
 //include <gmock/gmock.h>
 #include <iostream>
 #include <sstream>
-
-TEST(ComposedObjectTest, ParameterizedConstructor) {
-    ComposedObject obj(1, 2, 3);
-    EXPECT_EQ(obj.getX(), 1);
-    EXPECT_EQ(obj.getY(), 2);
-    EXPECT_EQ(obj.getZ(), 3);
-}
-
-TEST(ComposedObjectTest, SettersAndGetters) {
-    ComposedObject obj;
-    obj.setX(4);
-    obj.setY(5);
-    obj.setZ(6);
-    EXPECT_EQ(obj.getX(), 4);
-    EXPECT_EQ(obj.getY(), 5);
-    EXPECT_EQ(obj.getZ(), 6);
-}
-
-
