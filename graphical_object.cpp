@@ -4,7 +4,6 @@
 /********************************************/
 
 #include "graphical_object.h"
-#include "graphical_object.cpp"
 
 graphical_object::graphical_object ()
 {
