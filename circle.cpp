@@ -8,8 +8,6 @@
 #include "graphical_object.h"
 #include "primitive.h"
 #include "circle.h"
-#include "graphical_object.cpp"
-#include "primitive.cpp"
 
 circle::circle ()
 {
