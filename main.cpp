@@ -12,13 +12,6 @@
 #include "circle.h"
 #include "graphical_object.h"
 #include "composed_object.h"
-#include "line.cpp"
-#include "triangle.cpp"
-#include "point.cpp"
-#include "circle.cpp"
-#include "graphical_object.cpp"
-#include "composed_object.cpp"
-
 
 #define debug(x)   std::cerr << __FILE__ << "(" << __LINE__ << ") " << #x << " == " << (x) << std::endl 
 
