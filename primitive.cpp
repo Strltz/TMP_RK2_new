@@ -5,7 +5,6 @@
 
 #include "graphical_object.h"
 #include "primitive.h"
-#include "graphical_object.cpp"
 
 primitive::primitive ()
 {
