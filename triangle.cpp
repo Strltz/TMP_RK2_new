@@ -8,6 +8,9 @@
 #include "graphical_object.h"
 #include "primitive.h"
 #include "triangle.h"
+#include "graphical_object.cpp"
+#include "primitive.cpp"
+#include "triangle.cpp"
 
 triangle::triangle ()
 {
