@@ -18,6 +18,8 @@
 #include "circle.cpp"
 #include "graphical_object.cpp"
 #include "composed_object.cpp"
+#include "primitive.h"
+#include "primitive.cpp"
 
 #define debug(x)   std::cerr << __FILE__ << "(" << __LINE__ << ") " << #x << " == " << (x) << std::endl 
 
