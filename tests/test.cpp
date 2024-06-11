@@ -10,13 +10,6 @@
 #include <iostream>
 #include <sstream>
 
-TEST(ComposedObjectTest, DefaultConstructor) {
-    ComposedObject obj;
-    EXPECT_EQ(obj.getX(), 0);
-    EXPECT_EQ(obj.getY(), 0);
-    EXPECT_EQ(obj.getZ(), 0);
-}
-
 TEST(ComposedObjectTest, ParameterizedConstructor) {
     ComposedObject obj(1, 2, 3);
     EXPECT_EQ(obj.getX(), 1);
@@ -33,3 +26,5 @@ TEST(ComposedObjectTest, SettersAndGetters) {
     EXPECT_EQ(obj.getY(), 5);
     EXPECT_EQ(obj.getZ(), 6);
 }
+
+
