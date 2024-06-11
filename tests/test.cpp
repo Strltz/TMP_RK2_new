@@ -10,9 +10,6 @@
 #include <iostream>
 #include <sstream>
 
-#include "gtest/gtest.h"
-#include "composed_object.h"
-
 TEST(ComposedObjectTest, DefaultConstructor) {
     ComposedObject obj;
     
