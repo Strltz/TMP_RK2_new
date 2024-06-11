@@ -5,7 +5,6 @@
 
 #include "graphical_object.h"
 #include "composed_object.h"
-#include "graphical_object.cpp"
 
 composed_object::composed_object ()
 {
