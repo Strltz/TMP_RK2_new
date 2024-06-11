@@ -10,7 +10,6 @@
 #include "point.h"
 #include "graphical_object.cpp"
 #include "primitive.cpp"
-#include "point.cpp"
 
 point::point ()
 {
