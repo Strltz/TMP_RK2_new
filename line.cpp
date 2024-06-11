@@ -8,8 +8,6 @@
 #include "graphical_object.h"
 #include "primitive.h"
 #include "line.h"
-#include "graphical_object.cpp"
-#include "primitive.cpp"
 
 line::line ()
 {
