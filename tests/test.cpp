@@ -12,8 +12,6 @@
 
 TEST(ComposedObjectTest, DefaultConstructor) {
     ComposedObject obj;
-    
-    // Assert that the default constructor initializes the member variables correctly
     EXPECT_EQ(obj.getX(), 0);
     EXPECT_EQ(obj.getY(), 0);
     EXPECT_EQ(obj.getZ(), 0);
@@ -21,8 +19,6 @@ TEST(ComposedObjectTest, DefaultConstructor) {
 
 TEST(ComposedObjectTest, ParameterizedConstructor) {
     ComposedObject obj(1, 2, 3);
-    
-    // Assert that the parameterized constructor sets the member variables correctly
     EXPECT_EQ(obj.getX(), 1);
     EXPECT_EQ(obj.getY(), 2);
     EXPECT_EQ(obj.getZ(), 3);
@@ -30,11 +26,9 @@ TEST(ComposedObjectTest, ParameterizedConstructor) {
 
 TEST(ComposedObjectTest, SettersAndGetters) {
     ComposedObject obj;
-    
     obj.setX(4);
     obj.setY(5);
     obj.setZ(6);
-    
     EXPECT_EQ(obj.getX(), 4);
     EXPECT_EQ(obj.getY(), 5);
     EXPECT_EQ(obj.getZ(), 6);
