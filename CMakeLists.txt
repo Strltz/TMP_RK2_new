@@ -3,7 +3,6 @@ project(geo_make)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-option(BUILD_TESTS "Build tests" OFF)
 include_directories(.)
 add_library(circle STATIC circle.h circle.cpp)
 add_library(composed_obj STATIC composed_object.h composed_object.cpp)
