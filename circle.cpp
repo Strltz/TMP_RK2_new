@@ -10,7 +10,6 @@
 #include "circle.h"
 #include "graphical_object.cpp"
 #include "primitive.cpp"
-#include "circle.cpp"
 
 circle::circle ()
 {
