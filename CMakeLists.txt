@@ -9,4 +9,4 @@ file(GLOB SOURCES "src/*.cpp")
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 enable_testing()
-add_subdirectory(test)
+add_subdirectory(tests)
