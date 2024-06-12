@@ -22,8 +22,8 @@ protected:
    composed_object (composed_object && pattern);
    composed_object & operator= (const composed_object & pattern);
    composed_object & operator= (composed_object && pattern);
-   int size_of_components_vec() { // добавим функцию, возращающую длину вектора components
-      return components.size();
+   std::vector<*graphical_object> components_vec() { // добавим функцию, возращающую длину вектора components
+      return components;
    }
    virtual ~composed_object ();
    
