@@ -23,9 +23,9 @@ TEST(tests, test2) {
     composed_object obj1;
     composed_object obj2;
     point obj3;
-    line obj3;
-    obj3.add(obj3);
-    obj4.add(obj3);
+    line obj4;
+    obj1.add(obj3);
+    obj2.add(obj4);
     EXPECT_EQ(obj1.get_components().size(), obj2.get_components().size());
 }
 
