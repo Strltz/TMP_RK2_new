@@ -11,6 +11,7 @@
 
 line::line ()
 {
+   
 }
 
 line::~line ()
