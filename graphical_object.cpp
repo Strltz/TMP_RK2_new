@@ -7,6 +7,7 @@
 
 graphical_object::graphical_object ()
 {
+   
 }
 
 graphical_object::~graphical_object ()
