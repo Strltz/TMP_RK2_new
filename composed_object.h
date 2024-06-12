@@ -22,7 +22,7 @@ protected:
    composed_object (composed_object && pattern);
    composed_object & operator= (const composed_object & pattern);
    composed_object & operator= (composed_object && pattern);
-   std::vector<graphical_object*> components_vec() { // добавим функцию, возращающую вектор components
+   std::vector<graphical_object *> get_components() { // добавим функцию, возращающую вектор components
       return components;
    }
    virtual ~composed_object ();
