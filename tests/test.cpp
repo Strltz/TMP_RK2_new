@@ -17,7 +17,10 @@ TEST(tests, test1) {
 }
 
 TEST(tests, test2) {
-    graphical_object obj1();
-    graphical_object obj2(obj1);
-    EXPECT_EQ(obj1, obj2);
+    composed_object obj3();
+    composed_object obj4();
+    graphical_object obj5();
+    obj3.add(&obj5);
+    obj4.add(&obj5);
+    EXPECT_EQ(obj3, obj4);
 }
