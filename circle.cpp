@@ -11,6 +11,7 @@
 
 circle::circle ()
 {
+   
 }
 
 circle::~circle ()
