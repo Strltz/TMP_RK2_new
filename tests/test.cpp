@@ -6,7 +6,7 @@
 #include <primitive.h>
 #include <triangle.h>
 #include <gtest/gtest.h>
-//include <gmock/gmock.h>
+#include <gmock/gmock.h>
 #include <iostream>
 #include <sstream>
 
