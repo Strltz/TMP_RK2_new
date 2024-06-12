@@ -11,6 +11,7 @@
 
 point::point ()
 {
+   
 }
 
 point::~point ()
