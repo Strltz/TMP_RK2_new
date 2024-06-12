@@ -22,7 +22,7 @@ protected:
    composed_object (composed_object && pattern);
    composed_object & operator= (const composed_object & pattern);
    composed_object & operator= (composed_object && pattern);
-   size_t size_of_components_vec() { // добавим функцию, возращающую длину вектора components
+   int size_of_components_vec() { // добавим функцию, возращающую длину вектора components
       return components.size();
    }
    virtual ~composed_object ();
