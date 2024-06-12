@@ -8,6 +8,7 @@
 
 composed_object::composed_object ()
 {
+   
 }
 
 composed_object::~composed_object ()
