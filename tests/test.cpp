@@ -11,7 +11,7 @@
 #include <sstream>
 
 TEST(tests, test1) {
-    graphical_object obj1();
+    graphical_object obj1;
     graphical_object obj2(obj1);
     EXPECT_EQ(obj1, obj2);
 }
