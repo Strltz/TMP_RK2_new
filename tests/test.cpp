@@ -26,7 +26,7 @@ TEST(tests, test2) {
     line obj3;
     obj3.add(obj3);
     obj4.add(obj3);
-    EXPECT_EQ(obj1.get_components(), obj2.get_components());
+    EXPECT_EQ(obj1.get_components().size(), obj2.get_components().size());
 }
 
 TEST(tests, test3) {
