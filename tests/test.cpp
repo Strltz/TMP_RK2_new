@@ -12,27 +12,30 @@
 
 TEST(tests, test1) {
     composed_object obj1;
-    composed_object obj2(obj1);
-    for (size_t i = 0; i < obj.
-    EXPECT_EQ(obj1, obj2);
+    line obj2;
+    int a = obj1.get_components().size();
+    obj1.add(obj2);
+    bool tr = obj1.get_components().size() == a + 1;
+    EXPECT_TRUE(tr);
 }
 
 TEST(tests, test2) {
-    composed_object obj3;
-    composed_object obj4;
-    line obj5;
-    obj3.add(obj5);
-    obj4.add(obj5);
-    EXPECT_EQ(obj3, obj4);
+    composed_object obj1;
+    composed_object obj2;
+    point obj3;
+    line obj3;
+    obj3.add(obj3);
+    obj4.add(obj3);
+    EXPECT_EQ(obj1.get_components(), obj2.get_components());
 }
 
 TEST(tests, test3) {
     composed_object obj1;
     triangle obj2;
     line obj3;
-    int a = obj1.components_vec().size()2;
+    int a = obj1.get_components().size();
     obj1.add(obj2);
     obj1.add(obj3);
-    int b = obj1.size_of_components_vec().size();
+    int b = obj1.get_components().size();
     EXPECT_EQ(a + 2, b);
 }
