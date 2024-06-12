@@ -8,6 +8,7 @@
 
 primitive::primitive ()
 {
+   
 }
 
 primitive::~primitive ()
